@@ -9,8 +9,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.timenet.timenet.SplashActivity">
 
-    <TextView
+    <Switch
+        android:id="@+id/tb_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="电影"
+         />
 </RelativeLayout>
